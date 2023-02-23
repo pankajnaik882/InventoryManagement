@@ -1,8 +1,20 @@
 {
-  "TypeOfRice": {
+  "TypeOfRice": [
+    {
+      "name": "Rice1",
+      "weight": 3,
+      "price": 60
+    },
+    {
+      "name": "Rice2",
+      "weight": 4,
+      "price": 80
+    },
+    {
+      "name": "Rice3",
+      "weight": 5,
+      "price": 90
+    }
+  ]
 
-    "name": "Rice",
-    "weight": 3,
-    "price": 60
-  }
 }

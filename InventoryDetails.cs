@@ -8,8 +8,7 @@ namespace InventoryManagement
 {
     public class InventoryDetails
     {
-        public TypeofRice typeofRice;
-
+        public List<TypeofRice> typeofRice;
     }
     public class TypeofRice
     {
