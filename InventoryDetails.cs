@@ -8,26 +8,14 @@ namespace InventoryManagement
 {
     public class InventoryDetails
     {
-        public List<TypeofRice> typeofRice;
-        public List<TypeofPulses> typeofPulses;
-        public List<Typeofwheat> typeofWheat;
+        public TypesOfStock typesofstock;
+       
     }
-    public class TypeofRice
+    public class TypesOfStock
     {
-        public string name;
-        public int weight;
-        public int price;
+        public int numberofshare;
+        public int shareprice;
+        public string stockname;
     }
-    public class TypeofPulses
-    {
-        public string name;
-        public int weight;
-        public int price;
-    }
-    public class Typeofwheat
-    {
-        public string name;
-        public int weight;
-        public int price;
-    }
+   
 }
