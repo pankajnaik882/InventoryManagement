@@ -10,10 +10,13 @@
             InventoryDetails data = fetchInventory.Read(path);
 
 
-            Console.WriteLine(data.typeofRice.name);
-            Console.WriteLine(data.typeofRice.weight);
-            Console.WriteLine(data.typeofRice.price);
+            for (int i = 0; i < data.typeofRice.Count; i++)
+            {
+                Console.WriteLine(data.typeofRice[i].name);
+                Console.WriteLine(data.typeofRice[i].weight);
+                Console.WriteLine(data.typeofRice[i].price);
 
+            }
         }
     }
 }
