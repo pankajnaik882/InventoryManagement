@@ -15,6 +15,9 @@
                 Console.WriteLine(data.typesofstock[i].stockname);
                 Console.WriteLine(data.typesofstock[i].shareprice);
                 Console.WriteLine(data.typesofstock[i].numberofshare);
+                int total = data.typesofstock[i].numberofshare * data.typesofstock[i].shareprice;
+                Console.WriteLine("Total Stock Price : "+total);
+                Console.WriteLine("********************************************");
             }
         }
     }
