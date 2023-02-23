@@ -9,9 +9,13 @@
 
             InventoryDetails data = fetchInventory.Read(path);
 
-            Console.WriteLine(data.typesofstock.stockname);
-            Console.WriteLine(data.typesofstock.shareprice);
-            Console.WriteLine(data.typesofstock.numberofshare);
+
+            for(int i = 0; i < data.typesofstock.Count; i++)
+            {
+                Console.WriteLine(data.typesofstock[i].stockname);
+                Console.WriteLine(data.typesofstock[i].shareprice);
+                Console.WriteLine(data.typesofstock[i].numberofshare);
+            }
         }
     }
 }

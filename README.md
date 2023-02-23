@@ -1,1 +1,1 @@
-# InventoryManagement-StockProblem
+# InventoryManagement
